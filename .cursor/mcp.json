@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "llm-wiki-gfplab-shelly-scripts": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${userHome}/Projects/llm-wiki/dist/index.js"
+      ],
+      "env": {
+        "WIKI_ROOT": "${workspaceFolder}"
+      }
+    }
+  }
+}
