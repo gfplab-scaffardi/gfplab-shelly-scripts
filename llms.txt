@@ -1,0 +1,27 @@
+# gfplab-shelly-scripts — LLM entry
+
+Primary knowledge base for GFP Lab **on-device Shelly Scripts** (Gen 2/3/4): BLU/BTHome MQTT gateway and LoRa relay pair.
+
+| Resource | Path |
+|----------|------|
+| Overview | `wiki/overview.md` |
+| Wiki index | `wiki/index.md` |
+| Current focus | `wiki/current-focus.md` |
+| Session log | `wiki/log.md` |
+| Schema | `wiki/SCHEMA.md` |
+
+## Start here
+
+1. [[overview]] — purpose, script catalog, deploy flow
+2. [[BLU-MQTT-Gateway]] — BLE → MQTT whitelist gateway
+3. [[LoRa-Relay]] — Gen4 TX/RX LoRa relay (3-phase ON)
+4. [[Tools-vs-Scripts]] — vs host **gfplab-shelly-tools**
+
+## MCP
+
+Cursor server: `llm-wiki-gfplab-shelly-scripts` / `user-llm-wiki-gfplab-shelly-scripts` — `wiki_search`, `wiki_read_page`, `wiki_graph_query`.
+
+## Related repos
+
+- **gfplab-shelly-tools** — host discovery + P-Touch labeling
+- **giano** / middleware Giano Cloud — MQTT consumers of gateway topics
