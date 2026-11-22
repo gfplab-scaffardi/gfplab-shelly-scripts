@@ -4,7 +4,7 @@
       "type": "stdio",
       "command": "node",
       "args": [
-        "${userHome}/Projects/llm-wiki/dist/index.js"
+        "${env:HOME}/Projects/llm-wiki/dist/index.js"
       ],
       "env": {
         "WIKI_ROOT": "${workspaceFolder}"
